@@ -98,7 +98,7 @@ class App extends Component {
       border         : '2px solid black',
       padding        : '8px',
       cursor         : 'pointer',
-      ':hover'       :{
+      ':hover'       :{                  // using sudo seletors due to Radium React package
         backgroundColor:'lightgreen',
         color:'black'
       }
